@@ -1,0 +1,63 @@
+*{
+    user-select: none;
+ }
+ body{
+   margin:0;
+   display:flex;
+   font-size:45px;
+   justify-content:center;
+   align-items:center;
+   flex-direction:column;
+   height: 100vh;
+   background-color: silver;
+   background-image: url(https://data.textstudio.com/output/sample/animated/1/2/4/6/victory-34-16421.gif);
+     background-repeat: no-repeat;
+   background-size:cover;
+   
+ }
+ .abc{
+   display:flex;
+   background: blue;
+ gap:50px;
+   flex-wrap:wrap;
+   justify-content:center;
+   position:absolute;
+   bottom:0;
+ padding:20px;
+   box-sizing: border-box;
+ }
+ .letter{
+   display:flex;
+   border:1px solid black;
+   background:greenyellow;
+   width: 35px;
+   height: 45px;
+   justify-content:center;
+   align-items:center;
+   cursor: pointer;
+   transition: .3s;
+   box-sizing: border-box;
+ }
+ .letter:hover{
+   background: silver;
+  color: red;
+   border: 3px dotted black;
+ 
+ }
+ .a{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 12px;
+ }
+ .a *{
+   border: 1px solid black;
+   width: 30px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: green;
+ }
+ 
